@@ -1,0 +1,79 @@
+.registration {
+    @apply min-h-[100vh] overflow-x-hidden w-full text-white relative;
+  }
+  .registration .flare--one {
+    @apply -left-56 top-0;
+  }
+  
+  .registration__box {
+    @apply flex flex-wrap items-center justify-center container z-[1] relative  pb-20 md:pb-10;
+  }
+  .registration__box--details {
+    @apply grid grid-cols-1 w-full md:w-4/12 lg:w-6/12 items-center justify-center m-auto  z-[1];
+  }
+  
+  .registration__box--details .details {
+    @apply w-full;
+  }
+  
+  .registration__box--form {
+    @apply grid grid-cols-1 w-full md:w-8/12 lg:w-6/12 items-center justify-center;
+  }
+  .registration__box--form .registration__form {
+    border-radius: 12px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    @apply grid grid-cols-1 items-center md:bg-[#ffffff08] justify-center w-full min-h-[20rem] p-4 md:p-6 lg:p-12;
+  }
+  
+  .registration__form > h2 {
+    @apply secondary-text-color text-xl md:text-2xl font-semibold mb-5;
+  }
+  .registration__form > p {
+    @apply text-sm sm:text-base mb-2;
+  }
+  .registration__form > p img {
+    @apply inline relative bottom-2;
+  }
+  .registration__form > h3 {
+    @apply uppercase text-base relative md:text-xl font-normal align-middle mb-6;
+  }
+  
+  .registration__form > form .form__box {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-3;
+  }
+  .registration__form > form .form__group label {
+    @apply text-xs;
+  }
+  .registration__form > form .form__group select option {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: black;
+  }
+  .registration__form > form .form__group input,
+  .registration__form > form .form__group textarea,
+  .registration__form > form .form__group select,
+  .registration__form > form .form__group select:active > option,
+  option {
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    @apply text-xs border-white border rounded mb-5 p-3 w-full;
+  }
+  .registration__form > form .form__group select:focus {
+    @apply text-xs;
+  }
+  
+  .registration__form > form .hint {
+    @apply text-xs italic secondary-text-color mb-2;
+  }
+  .registration__form > form .confirmation {
+    @apply text-xs mb-4 space-x-3 flex items-center;
+  }
+  .registration__form > form button[type="submit"] {
+    @apply w-full;
+  }
+
+  section {
+    @apply bg-primary  pt-[3rem] px-[4%] md:pt-[5rem] md:px-[6%] md:border-b-2 md:border-[rgba(128,128,128,0.36)];
+  }
+  
